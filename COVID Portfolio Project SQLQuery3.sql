@@ -21,7 +21,7 @@ Where location like '%Netherlands%'
 order by 1,2
 
 
---Looking at the Total Cases vs Population
+-- Looking at the Total Cases vs Population
 -- Shows what percentage of population got Covid
 
 Select Location, date, total_cases, Population, (total_cases/population)*100 as PercentPopulationInfected
